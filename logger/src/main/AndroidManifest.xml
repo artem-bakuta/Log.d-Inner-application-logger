@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artem.bakuta.logger">
+
+    <application android:theme="@style/Theme.AppCompat">
+
+        <service android:name=".service.LoggerService" />
+        <activity
+            android:name=".activity.LoggerActivity"
+            android:theme="@style/Theme.AppCompat" />
+    </application>
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+</manifest>

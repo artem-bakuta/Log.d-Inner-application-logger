@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Logger on the board (Android)</string>
+    <string name="select_log_tag_to_show">Select Log TAG to show:</string>
+    <string name="send_all_logs">Send All Logs</string>
+</resources>
